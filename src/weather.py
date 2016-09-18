@@ -6,7 +6,7 @@ import sys
 from datetime import datetime, timedelta
 
 
-base_url = "http://api.worldweatheronline.com/free/v2/weather.ashx"
+base_url = "http://api.worldweatheronline.com/premium/v1/weather.ashx"
 
 codes = {'113': 'iconSunny',
          '116': 'iconPartlyCloudy',
@@ -210,7 +210,7 @@ class Query(object):
                 self.chanceofwater = 0
                 self.city = city
                 # Please input your API key before you run this script.
-                self.key = ""
+                self.key = "d172a2e1a5654270950180228161109"
 
         def query(self):
                 # use resquests
