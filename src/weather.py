@@ -309,7 +309,7 @@ def main():
                 print "\033[1;31;49m" + "请输入您要查询的城市或地区：" + "\033[0m"
                 city = raw_input()
                 if city == '':
-                        sys.exit()
+                        sys.exit();
         day = [0,1,2]
         for i in day:
                 query = Query(i,city)
